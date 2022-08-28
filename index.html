@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyMusic</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--ícone aba do navegador-->
+    <link rel="shortcut icon" href="./assets/images/outras/music-player-fill.svg" type="image/x-icon">
+
+    <!--ícones Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!--CSS do Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--Minha CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    
+    <!-- menu navegação -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="bi bi-file-music-fill me-2 text-danger"></i>MyMusic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Shows</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Vídeos </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Cadastrar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim menu navegação -->
+    
+    <main class="container">
+        <h1 class="bg-danger text-light display-4 my-3 p-5">MyMusic</h1>
+        <p class="lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat atque, eveniet quisquam iste sunt praesentium
+            cumque ab blanditiis saepe amet nisi modi reiciendis culpa ad! Cumque alias illum quod. Eius doloremque,
+            voluptatum ullam, facere sint et nobis magnam quaerat deleniti blanditiis, magni nesciunt distinctio maiores
+            corrupti hic qui quia aut nam reiciendis delectus! Sapiente aspernatur, id dolor voluptas saepe obcaecati
+            quisquam, quis quo odit odio, rem minus porro nobis accusamus!
+        </p>
+    
+        <a href="" class="btn btn-outline-danger">Mais informações</a>
+    
+        <!-- carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide my-4" data-bs-ride="false">
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+    
+            <div class="carousel-inner">
+    
+                <div class="carousel-item active">
+                    <img src="./assets/images/carousel/pexels-clem-onojeghuo-375893.jpg" class="d-block w-100"
+                        alt="Show da banda Z">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>Show em São Paulo</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/pexels-edward-eyer-811838.jpg" class="d-block w-100"
+                        alt="Show da banda Y">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Show em Lisboa</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/pexels-freestocksorg-127712.jpg" class="d-block w-100"
+                        alt="Show da banda B">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Show em Madri</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/pexels-rahul-pandit-1652361.jpg" class="d-block w-100"
+                        alt="Show da banda M">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Show em Londres</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="./assets/images/carousel/pexels-wendy-wei-1306791.jpg" class="d-block w-100"
+                        alt="Show da banda S">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Show no Rio de Janeiro</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+        <!-- área de cards -->
+        <div class="row">
+    
+            <!-- 1o.card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <img src="./assets/images/cards/pexels-caleb-oquendo-3018083.jpg" class="card-img-top"
+                        alt="Led Zeppelin">
+                    <div class="card-body">
+                        <h5 class="card-title">Led Zeppelin</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-outline-danger">Discografia</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 1o.card -->
+    
+            <!-- 2o.card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <img src="./assets/images/cards/pexels-dom-gould-325811.jpg" class="card-img-top" alt="Pink Floyd">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink Floyd</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-outline-danger">Discografia</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 2o.card -->
+    
+            <!-- 3o.card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <img src="./assets/images/cards/pexels-luis-quintero-2091374.jpg" class="card-img-top"
+                        alt="The Beatles">
+                    <div class="card-body">
+                        <h5 class="card-title">The Beatles</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-outline-danger">Discografia</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 3o.card -->
+    
+            <!-- 4o.card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <img src="./assets/images/cards/pexels-méline-waxx-165971.jpg" class="card-img-top" alt="The Who">
+                    <div class="card-body">
+                        <h5 class="card-title">The Who</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-outline-danger">Discografia</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 4o.card -->
+    
+            <!-- 5o.card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <img src="./assets/images/cards/pexels-sebastian-ervi-1763068.jpg" class="card-img-top" alt="Queen">
+                    <div class="card-body">
+                        <h5 class="card-title">Queen</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-outline-danger">Discografia</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 5o.card -->
+    
+            <!-- 6o.card -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 my-3">
+                <div class="card">
+                    <img src="./assets/images/cards/pexels-teddy-yang-2263436.jpg" class="card-img-top" alt="Mettalica">
+                    <div class="card-body">
+                        <h5 class="card-title">Mettalica</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                            card's
+                            content.</p>
+                        <a href="#" class="btn btn-outline-danger">Discografia</a>
+                    </div>
+                </div>
+            </div>
+            <!-- fim 6o.card -->
+    
+        </div>
+    
+        <!-- fim área de cards -->
+    
+    
+    
+    </main>
+    
+    
+    
+    
+    <!-- JS do BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>

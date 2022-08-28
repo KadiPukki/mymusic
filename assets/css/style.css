@@ -1,0 +1,9 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Alterando a altura do carrossel*/
+.carousel-inner,
+.carousel-item {
+    height: 80vh;
+}
