@@ -12,3 +12,30 @@ textarea {
     resize: none;
     height: 150px;
 }
+
+.gallery {
+    min-height: 100vh;
+    padding: 60px 40px;
+}
+
+.gallery img {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.gallery img:hover {
+    transform: rotate(0);
+}
+
+
+.left-rotate {
+    transform: rotate(-7deg);
+}
+
+.right-rotate {
+    transform: rotate(7deg);
+}
